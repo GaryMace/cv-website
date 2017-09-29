@@ -1666,17 +1666,9 @@ a {
     font-family: "Lato", sans-serif;
 }
 
-.cv-job-entry-corvil {
-    background-color: #f1f1f1;
-}
-
-.cv-job-entry-insight {
-    background-color: #e8e8e8;
-}
-
 .cv-job-desc {
-    width: 60%;
-    height: 600px;
+    width: 100%;
+    height: auto;
 
     margin: 0 auto;
 }
@@ -1686,10 +1678,8 @@ a {
 }
 
 .cv-job-header-text {
-    font-size: 2.2em;
+    font-size: 1.5em;
     color: #888;
-    margin: 0 0 0 75px;
-
 }
 
 .cv-job-desc-content {
@@ -1699,7 +1689,7 @@ a {
 }
 
 .cv-job-desc-content-text {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .cv-job-entry-date {
