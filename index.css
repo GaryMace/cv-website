@@ -1782,3 +1782,14 @@ a {
 .cv-github-text {
     font-size: 3em;
 }
+
+.cv-second-parallex-offset {
+    top: 1150px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    /* define mobile specific styles come here */
+    .cv-second-parallex-offset {
+        top: 1350px;
+    }
+}
