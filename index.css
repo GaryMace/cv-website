@@ -727,6 +727,7 @@ a {
     width: 100%;
     background-color: white;
     margin: auto;
+    overflow-x: hidden
 }
 
 .w3-content {
@@ -1787,10 +1788,27 @@ a {
     top: 1000px;
 }
 
+.cv-third-parallex-offset {
+    top: 2000px;
+}
+
+.cv-fourth-parallex-offset {
+    top: 2700px
+}
+
 @media only screen and (max-device-width: 1024px) {
     /* define mobile specific styles come here */
     .cv-second-parallex-offset {
         top: 1350px;
+    }
+    .cv-third-parallex-offset {
+        top: 2500px;
+    }
+    .cv-fourth-parallex-offset {
+        top: 3500px;
+    }
+    .insight-logo-style {
+        width: 50%;
     }
 }
 
@@ -1800,4 +1818,7 @@ a {
 .cv-title-wrapper:hover {
     transform: scale(1.1,1.1);
     transition: 0.2s ease-in-out;
+}
+.insight-logo-style {
+    width: 20%;
 }
