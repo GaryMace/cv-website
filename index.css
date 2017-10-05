@@ -1785,36 +1785,20 @@ a {
 }
 
 
-.cv-second-parallex-offset {
-    top: 1350px;
-}
-.cv-third-parallex-offset {
-    top: 2500px;
-}
-.cv-fourth-parallex-offset {
-    top: 3500px;
-}
 .insight-logo-style {
-    width: 50%;
+    width: 20%;
 }
-@media (min-width: 1024px) {
-    /* define mobile specific styles come here */
 
-    .insight-logo-style {
-        width: 20%;
-    }
+.cv-second-parallex-offset {
+    top: 1000px;
+}
 
-    .cv-second-parallex-offset {
-        top: 1000px;
-    }
+.cv-third-parallex-offset {
+    top: 2000px;
+}
 
-    .cv-third-parallex-offset {
-        top: 2000px;
-    }
-
-    .cv-fourth-parallex-offset {
-        top: 2700px
-    }
+.cv-fourth-parallex-offset {
+    top: 2700px
 }
 
 .cv-title-wrapper {
