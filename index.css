@@ -1800,7 +1800,7 @@ a {
     top: 2700px
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     /* define mobile specific styles come here */
     .cv-second-parallex-offset {
         top: 1350px;
