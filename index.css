@@ -1703,7 +1703,7 @@ a {
 }
 
 .w3-wide.cv-content-hovered {
-    color: blue;
+    color: black;
 }
 
 .cv-prog-lang-wrapper{
@@ -1722,7 +1722,7 @@ a {
 }
 
 .about-me-entry:hover > .w3-wide {
-    color: blue;
+    color: black;
 }
 
 /* Custom scrollbar */
@@ -1750,7 +1750,7 @@ a {
 }
 
 .cv-portfolio-image:hover + .w3-center.cv-portfolio-image-margin {
-    color: blue;
+    color: black;
 }
 
 .cv-portfolio-image img {
@@ -1784,7 +1784,7 @@ a {
 }
 
 .cv-second-parallex-offset {
-    top: 1150px;
+    top: 1000px;
 }
 
 @media only screen and (max-device-width: 1024px) {
@@ -1792,4 +1792,12 @@ a {
     .cv-second-parallex-offset {
         top: 1350px;
     }
+}
+
+.cv-title-wrapper {
+    transition: 0.2s ease-in-out;
+}
+.cv-title-wrapper:hover {
+    transform: scale(1.1,1.1);
+    transition: 0.2s ease-in-out;
 }
